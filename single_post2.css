@@ -1,0 +1,302 @@
+body{
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+
+#lavender {
+    width: 100%;
+    height: 400px;
+    background-image: url(imges/lavender.png);
+    background-repeat: no-repeat;
+    background-size: 150%;
+    background-position: center top;
+}
+
+@media  screen and (max-width:760px) {
+  #lavender{
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: 300%;
+    background-position: center top;
+  }
+}
+
+#lavender h3{
+  margin-top: 250px;
+  text-align: center;
+  font-size: 50px;
+  color:white;
+  font-family: 'Roboto', sans-serif;
+}
+
+@media screen and (max-width: 760px){
+  #lavender h3{
+    margin-top:100px;
+    font-size:20px;
+  }
+}
+
+.dropdown-toggle::after{
+  display: none;
+}
+
+.change-color{
+  background-color: rgba(173, 216, 230, 0.93);
+  transition-duration: 2s;
+}
+
+.navbar-toggler:focus{
+    outline:none;
+    box-shadow: none;
+  }
+
+.nav-link{
+  color: white;
+}
+
+.nav-item{
+  margin-left:20px ;
+}
+
+
+
+@media screen and (max-width:760px){
+  .shopimage img{
+    width: 100px;
+    height: 30px;
+  }
+}
+
+/* body */
+
+.nail-img{
+  margin-top:50px;
+}
+
+.nail_image{
+  overflow: hidden;
+}
+
+.lavender{
+  transition-duration: 0.5s;
+  width: 100%;
+}
+
+.lavender:hover{
+  transform: scale(1.6);
+  transition-duration: 0.5s;
+}
+
+@media screen and (max-width:760px){
+  .blog-posts{
+    padding-left:44px;
+  }
+}
+
+.blog-posts p{
+  color:gray;
+  font-weight: lighter;
+  font-family: robot;
+  letter-spacing: 1px;
+  margin-bottom:20px;
+}
+
+.blog-posts h4{
+  font-family:robot;
+  font-weight: lighter;
+}
+
+.blog-posts-side p{
+  color:gray;
+  font-weight: lighter;
+  font-family: robot;
+}
+
+.blog-posts-side h4, h5{
+  font-family:robot;
+  font-weight: bolder;
+}
+
+.nail_washes h4{
+  margin-top:30px;
+}
+
+.quote{
+  padding-top: 30px;
+  padding-bottom:30px;
+  margin-top:20px;
+  margin-bottom:20px;
+  border-left: 3px solid #add8e6;
+}
+
+.quote>.top{
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.foot{
+  padding-left:70px;
+}
+
+@media screen and (max-width:760px){
+  .foot{
+    padding-left:20px;
+  }
+}
+
+.tags{
+  margin-top:50px;
+  margin-bottom:50px;
+}
+
+@media screen and (max-width:760px){
+ .tags{
+  margin-top:10px;
+  margin-bottom:10px;
+ }
+}
+
+
+.img-thumbnail{
+  height:auto;
+  background-color:white;
+  border:1px solid gray;
+}
+
+.john_doe_come h4{
+  margin-bottom:20px;
+}
+
+.coments_area{
+  margin-top:50px;
+}
+
+.coments_area h5{
+  font-size: 20px;
+  color:black;
+}
+
+.submit_area{
+  background-color: gainsboro;
+  padding:50px;
+  margin-top:50px;
+  margin-bottom:50px;
+}
+
+.submit_button button{
+  background-color: black;
+  color:white;
+  padding:10px;
+  margin-top:20px;
+}
+
+.submit_button button:hover{
+  background-color:#333333;
+
+}
+
+.forms input{
+  display: block;
+  width:100%;
+  height:40px;
+  margin-bottom:20px;
+  border:0.5px solid ghostwhite;
+}
+
+.form-three{
+  padding-top:20px;
+}
+
+.forms_text textarea{
+  border:0.5px solid ghostwhite;
+}
+
+@media screen and (max-width:760px){
+  .forms_text textarea{
+    width: 181px;
+  }
+}
+
+.forms_text {
+  margin-top:20px;
+}
+
+/* footer */
+
+footer{
+  background-color: #4d4d4d;
+  height:100%;
+}
+
+.foot_info{
+  padding-top: 70px;
+}
+
+.foot_info h4{
+  color: white;
+  letter-spacing: 2px;
+  margin-bottom: 50px;
+}
+
+.foot_info p{
+  color:#f7f7f7;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  letter-spacing: 1px;
+  border-bottom: dashed 1px #87CEFA;
+  width: 100%;
+}
+
+.foot_info button{
+  background-color:#4d4d4d;
+  color:#f7f7f7;
+  border:solid 0.2px #f7f7f7;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.foot_info button:hover{
+  background-color:#87CEFA;
+}
+
+
+
+.spa-image img{
+  width: 100%;
+}
+
+.telnum{
+  margin-top: 100px;
+}
+
+.telnum h1{
+  color: white;
+  text-align: center;
+  letter-spacing: 3px;
+  margin-bottom: 30px;
+}
+
+.telnum h4{
+  color:#666666;
+  text-align: center;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+}
+
+.telnum p{
+  color: white;
+  text-align: center;
+  font-size: 10px;
+  margin-top: 30px;
+}
+
+.twipic{
+  margin: auto;
+  width: 150px;
+}
+
+.twipic img{
+  margin-right: 10px;
+}
